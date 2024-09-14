@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: rgb(128, 86, 167);
+}
+.heading{
+    color: rgb(14, 6, 26);
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative;
+}
+.personal{
+    color: rgb(85, 6, 6);
+    background-color: aliceblue;
+    text-align: center;
+    padding: 15px;
+    font-size: x-large;
+}
+
+.forpic{
+    color: blue;
+}
+.input[type="file"]{
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background-color: #b7e2ed;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.input[type="file"]::file.selector-button{
+    background-color: #b7e2ed;
+    cursor: pointer;
+    font-size: large;
+    color: #fff;
+    border-color: #393cdd;
+    border-radius: 10px;
+}
+
+form{
+    margin-bottom: 40px;
+}
+
+input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-color: aqua;
+    border-width: 3px;
+}
+
+#resumeOutput{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 3px solid b7e2ed;
+    color: #393cdd;
+    background-image: url(https://previews.123rf.com/images/atasitseli/atasitseli1605/atasitseli160500258/56081092-the-branch-of-lilac-blossoms-in-a-spring-time-garden-background-for-the-design-theme-for-the-spring.jpg);
+
+}
+
+h1{
+   background-color: #b7e2ed;
+   color: #393cdd ;
+   text-align: center;
+   font-size: 50px;
+
+}
+
+h2 ,p{
+margin: 10px  0;
+
+}
+
+h2{
+    font-size: 35px;
+    font-family: cursive;
+}
+
+p{
+    color: greenyellow;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+img{
+    max-width: 150px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+@media (max-width:600px){
+/* Adjusting padding and font size for smaller screen */
+body{
+    margin: 10px;
+}
+
+
+form{
+    padding: 15px;
+    margin-bottom: 20px;
+
+}
+input, textArea{
+    font-size: 14px;
+    padding: 10px;
+}
+h2{
+    font-size: 1.5em;
+}
+
+p{
+   font-size: 1em;
+}
+
+img{
+    max-width: 100px;
+}
+
+input[type="submit"]{
+    padding: auto;
+}
+#resumeOutput{
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-left: -3px;
+}
+}   
